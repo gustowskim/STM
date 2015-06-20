@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STM.UI", "STM.UI\STM.UI.csproj", "{045779BD-FE29-4BC9-A9A2-5D35A021D240}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STM.Resources", "STM.Resources\STM.Resources.csproj", "{E20FEA16-DDF4-4211-9D45-C7F656DF7293}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{045779BD-FE29-4BC9-A9A2-5D35A021D240}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{045779BD-FE29-4BC9-A9A2-5D35A021D240}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{045779BD-FE29-4BC9-A9A2-5D35A021D240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E20FEA16-DDF4-4211-9D45-C7F656DF7293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E20FEA16-DDF4-4211-9D45-C7F656DF7293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E20FEA16-DDF4-4211-9D45-C7F656DF7293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E20FEA16-DDF4-4211-9D45-C7F656DF7293}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
