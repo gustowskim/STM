@@ -23,5 +23,10 @@ namespace STM.UI
         {
             InitializeComponent();
         }
+
+        public bool LoginLogic()
+        {
+            return (bool)this.ShowDialog();
+        }
     }
 }
