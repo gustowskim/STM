@@ -129,6 +129,9 @@
   <data name="LoginWindow_RememberMe" xml:space="preserve">
     <value>Zapamiętaj mnie</value>
   </data>
+  <data name="LoginWindow_Title" xml:space="preserve">
+    <value>SoccerTeamManager Login</value>
+  </data>
   <data name="LoginWindow_WelcomeText" xml:space="preserve">
     <value>Zaloguj się do aplikacji</value>
   </data>

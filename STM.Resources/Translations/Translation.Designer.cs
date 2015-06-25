@@ -70,7 +70,7 @@ namespace STM.Resources.Translations {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Zaloguj.
+        ///   Looks up a localized string similar to Login.
         /// </summary>
         public static string LoginWindow_LoginBtn {
             get {
@@ -79,7 +79,7 @@ namespace STM.Resources.Translations {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Hasło.
+        ///   Looks up a localized string similar to Password.
         /// </summary>
         public static string LoginWindow_Password {
             get {
@@ -88,7 +88,7 @@ namespace STM.Resources.Translations {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Zapamiętaj mnie.
+        ///   Looks up a localized string similar to Remember me.
         /// </summary>
         public static string LoginWindow_RememberMe {
             get {
@@ -97,7 +97,16 @@ namespace STM.Resources.Translations {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Zaloguj się do aplikacji.
+        ///   Looks up a localized string similar to SoccerTeamManager Login.
+        /// </summary>
+        public static string LoginWindow_Title {
+            get {
+                return ResourceManager.GetString("LoginWindow_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please, login into application.
         /// </summary>
         public static string LoginWindow_WelcomeText {
             get {

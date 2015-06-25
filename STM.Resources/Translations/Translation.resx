@@ -121,16 +121,19 @@
     <value>Login</value>
   </data>
   <data name="LoginWindow_LoginBtn" xml:space="preserve">
-    <value>Zaloguj</value>
+    <value>Login</value>
   </data>
   <data name="LoginWindow_Password" xml:space="preserve">
-    <value>Hasło</value>
+    <value>Password</value>
   </data>
   <data name="LoginWindow_RememberMe" xml:space="preserve">
-    <value>Zapamiętaj mnie</value>
+    <value>Remember me</value>
+  </data>
+  <data name="LoginWindow_Title" xml:space="preserve">
+    <value>SoccerTeamManager Login</value>
   </data>
   <data name="LoginWindow_WelcomeText" xml:space="preserve">
-    <value>Zaloguj się do aplikacji</value>
+    <value>Please, login into application</value>
   </data>
   <data name="Test_TestString" xml:space="preserve">
     <value>TestString_DEFAULT</value>
