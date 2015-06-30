@@ -6,3 +6,5 @@
 /STM.Tests/obj/Debug
 /packages
 /STM.v12.suo
+/STM.DomainLayer/bin/Debug
+/STM.DomainLayer/obj/Debug
