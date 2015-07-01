@@ -14,6 +14,7 @@ using System.Windows.Markup;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using WPFLocalizeExtension.Engine;
 
 namespace STM.UI
 {
@@ -30,6 +31,24 @@ namespace STM.UI
         public bool LoginLogic()
         {
             return (bool)this.ShowDialog();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (Thread.CurrentThread.CurrentCulture == CultureInfo.InvariantCulture && Thread.CurrentThread.CurrentUICulture == CultureInfo.InvariantCulture)
+            {
+
+                var ci = new CultureInfo("pl");
+                Thread.CurrentThread.CurrentCulture = ci;
+                Thread.CurrentThread.CurrentUICulture = ci;
+                LocalizeDictionary.Instance.Culture = ci;
+            }
+            else
+            {
+                Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
+                Thread.CurrentThread.CurrentUICulture = CultureInfo.InvariantCulture;
+                LocalizeDictionary.Instance.Culture = CultureInfo.InvariantCulture;
+            }
         }
     }
 }

@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using WPFLocalizeExtension.Engine;
 
 namespace STM.UI
 {
@@ -16,7 +17,8 @@ namespace STM.UI
         protected override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
-
+            LocalizeDictionary.Instance.SetCurrentThreadCulture = true;
+            
             try
             {
                 do
